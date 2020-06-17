@@ -1,0 +1,38 @@
+
+/*! `Custom` Bootstrap 4 theme */
+
+$primary:#2f3c48;
+$secondary:#6f7f8c;
+$success:#3e4d59;
+$danger:#cc330d;
+$info:#5c8f94;
+$warning:#6e9fa5;
+$light:#eceeec;
+$dark:#1e2b37;
+$spacer:1rem;  
+$border-width:1px;   
+$btn-border-radius:.25rem; 
+
+$fa-font-path:        "../webfonts"; 
+
+// Add SASS theme customizations here..
+  
+
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+header {
+    padding: 156px 0 100px;
+    img {
+        max-width: 100%;
+    }
+}
+  
+section {
+    padding: 150px 0;
+}
+.freebirdFormviewerViewCenteredContent {
+    width: 100% !important;
+}
